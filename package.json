@@ -1,0 +1,23 @@
+{
+  "name": "neuewave-wordmark-tool",
+  "version": "1.0.0",
+  "description": "Browser tool that builds the neuewave mark from Monument Extended text and four elemental forms.",
+  "scripts": {
+    "build": "node build.mjs",
+    "font": "node tools/extract-font.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "fflate": "^0.8.3",
+    "gifenc": "^1.0.3",
+    "mp4-muxer": "^5.2.2",
+    "three": "^0.160.1",
+    "webm-muxer": "^5.1.4"
+  },
+  "devDependencies": {
+    "opentype.js": "^2.0.0"
+  },
+  "private": true
+}
